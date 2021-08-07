@@ -1,8 +1,8 @@
 <html>
 <FORM>
-<INPUT TYPE="button" VALUE="Microsoft" onClick="parent.location.href='http://www.microsoft.com'">
-<INPUT TYPE="button" VALUE="Corel" onClick="parent.location.href='http://www.corel.com'">
-<INPUT TYPE="button" VALUE="IBM" onClick="parent.location.href='http://www.ibm.com'">
+<INPUT TYPE="button" class="button" VALUE="Microsoft" onClick="parent.location.href='http://www.microsoft.com'">
+<INPUT TYPE="button" class="button" VALUE="Corel" onClick="parent.location.href='http://www.corel.com'">
+<INPUT TYPE="button" class="button" VALUE="IBM" onClick="parent.location.href='http://www.ibm.com'">
 </FORM>
   <h2>  <button onclick="document.getElementById('link').click()">Pobierz</button>
 <a id="link" href="123.jpg" download hidden></a> </h2>
@@ -24,6 +24,22 @@ h1 {
   <style>
 body {background-color: powderblue;}
     </style>
+    
+    
+    <style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
   
 
   <link rel="stylesheet" href="css/styles.css">
